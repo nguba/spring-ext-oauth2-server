@@ -1,7 +1,7 @@
 /**
  * 
  */
-package nguba.spring.ext;
+package io.github.nguba.oauth2;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -12,7 +12,8 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author <a href="mailto:nguba@deloitte.co.uk">nguba@deloitte.co.uk</a>
+ * 
+ * @author <a href="mailto:nguba@mac.com">nguba@mac.com</a>
  *
  */
 class KeyRotatorTest {
@@ -22,9 +23,7 @@ class KeyRotatorTest {
 
 	@Test
 	public void hasExpectedKeySize() {
-		final RSAPublicKey rsa = (RSAPublicKey) actual.getPublic();
-
-		assertThat(rsa.getModulus().bitLength()).isEqualTo(2048);
+		assertThat(((RSAPublicKey) actual.getPublic()).getModulus().bitLength()).isEqualTo(2048);
 	}
 
 	@Test

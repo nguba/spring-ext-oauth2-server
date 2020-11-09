@@ -1,4 +1,4 @@
-package nguba.spring.ext;
+package io.github.nguba.oauth2;
 
 import java.math.BigInteger;
 import java.security.KeyFactory;
@@ -28,11 +28,11 @@ import com.nimbusds.jose.jwk.JWKSet;
 import com.nimbusds.jose.jwk.RSAKey;
 
 /**
- * @author <a href="mailto:nguba@deloitte.co.uk">nguba@deloitte.co.uk</a>
+ * @author <a href="mailto:nguba@mac.com">nguba@mac.com</a>
  *
  */
 @SpringBootConfiguration
-public class AuthorizationServerConfiguration extends AuthorizationServerConfigurerAdapter {
+public class Oauth2AuthorizationServerConfiguration extends AuthorizationServerConfigurerAdapter {
 
 	@Bean
 	public JwtAccessTokenConverter accessTokenConverter(final AccessTokenConverter accessTokenConverter,

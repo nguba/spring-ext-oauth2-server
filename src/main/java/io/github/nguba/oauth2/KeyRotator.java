@@ -1,14 +1,15 @@
 /**
  * 
  */
-package nguba.spring.ext;
+package io.github.nguba.oauth2;
 
 import java.security.KeyPair;
 import java.security.KeyPairGenerator;
 import java.security.NoSuchAlgorithmException;
 
 /**
- * @author <a href="mailto:nguba@deloitte.co.uk">nguba@deloitte.co.uk</a>
+ * 
+ * @author <a href="mailto:nguba@mac.com">nguba@mac.com</a>
  *
  */
 public final class KeyRotator {
