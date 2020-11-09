@@ -9,11 +9,13 @@
 		<version>2.4.0-RC1</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>nguba</groupId>
+	<groupId>io.github.nguba</groupId>
 	<artifactId>spring-ext-oauth2-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<description>Extension to add embedded oauth2 server to spring boot</description>
-
+	<url>https://github.com/nguba/spring-ext-oauth2-server</url>
+	<name>spring-ext-oauth2-server</name>
+	
 	<properties>
 		<java.version>11</java.version>
 		<spring-cloud.version>2020.0.0-SNAPSHOT</spring-cloud.version>
@@ -125,7 +127,4 @@
 			<url>https://repo.spring.io/milestone</url>
 		</pluginRepository>
 	</pluginRepositories>
-
-	<url>https://github.com/nguba/spring-ext-oauth2-server</url>
-	<name>spring-ext-oauth2-server</name>
 </project>
