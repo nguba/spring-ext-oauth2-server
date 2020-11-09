@@ -9,7 +9,7 @@
 		<version>2.4.0-RC1</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>nguba</groupId>
+	<groupId>io.github.nguba</groupId>
 	<artifactId>spring-ext-oauth2-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<description>Extension to add embedded oauth2 server to spring boot</description>
