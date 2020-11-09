@@ -126,4 +126,6 @@
 		</pluginRepository>
 	</pluginRepositories>
 
+	<url>https://github.com/nguba/spring-ext-oauth2-server</url>
+	<name>spring-ext-oauth2-server</name>
 </project>
